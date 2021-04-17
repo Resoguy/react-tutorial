@@ -1,0 +1,26 @@
+.button {
+    border-radius: 4px;
+    border: none;
+    transition: 150ms;
+    color: seashell;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin: 4px;
+}
+.primary {
+    background-color: tomato;
+}
+.primary:hover {
+    background-color: seashell;
+    color: tomato;
+}
+.secondary {
+    background-color: slateblue;
+}
+.secondary:hover {
+    background-color: slategray;
+}
+.block {
+    display: block;
+    width: 100%;
+}
